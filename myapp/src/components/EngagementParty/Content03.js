@@ -11,7 +11,7 @@ class Content01 extends React.Component {
         >
           <Col
             sm={12}
-            className="col-md-masthead col-md-auto-masthead col-md-2-masthead"
+            className="col-xl-masthead col-xl-auto-masthead col-xl-2-masthead"
             style={{
               backgroundColor: "rgba(237, 178, 155, 0.125)"
             }}
@@ -30,7 +30,7 @@ class Content01 extends React.Component {
           </Col>
           <Col
             sm={12}
-            className="col-md-masthead col-md-auto-masthead col-md-2-masthead"
+            className="col-xl-masthead col-xl-auto-masthead col-xl-2-masthead"
             style={{ textAlign: "left" }}
           >
             <p
@@ -60,7 +60,7 @@ class Content01 extends React.Component {
           </Col>
           <Col
             sm={12}
-            className="col-md-masthead col-md-auto-masthead col-md-2-masthead"
+            className="col-xl-masthead col-xl-auto-masthead col-xl-2-masthead"
             style={{ textAlign: "left" }}
           >
             <p
@@ -90,7 +90,7 @@ class Content01 extends React.Component {
           </Col>
           <Col
             sm={12}
-            className="col-md-masthead col-md-auto-masthead col-md-2-masthead hide"
+            className="col-xl-masthead col-xl-auto-masthead col-xl-2-masthead hide-2"
             style={{ textAlign: "left", opacity: "0" }}
           >
             <p
@@ -120,7 +120,7 @@ class Content01 extends React.Component {
           </Col>
           <Col
             sm={12}
-            className="col-md-masthead col-md-auto-masthead col-md-2-masthead"
+            className="col-xl-masthead col-xl-auto-masthead col-xl-2-masthead"
             style={{
               backgroundColor: "rgba(237, 178, 155, 0.125)"
             }}
@@ -145,7 +145,7 @@ class Content01 extends React.Component {
         >
           <Col
             sm={12}
-            className="col-md-masthead col-md-auto-masthead col-md-2-masthead"
+            className="col-xl-masthead col-xl-auto-masthead col-xl-2-masthead"
             style={{
               backgroundColor: "rgba(237, 178, 155, 0.125)"
             }}
@@ -164,7 +164,7 @@ class Content01 extends React.Component {
           </Col>
           <Col
             sm={12}
-            className="col-md-masthead col-md-auto-masthead col-md-2-masthead"
+            className="col-xl-masthead col-xl-auto-masthead col-xl-2-masthead"
             style={{ textAlign: "left" }}
           >
             <p
@@ -194,11 +194,11 @@ class Content01 extends React.Component {
           </Col>
           <Col
             sm={12}
-            className="col-md-masthead col-md-auto-masthead col-md-2-masthead"
+            className="col-xl-masthead col-xl-auto-masthead col-xl-2-masthead"
             style={{ textAlign: "left" }}
           >
             <p
-              className="p montserrat-medium color-dark-75 padding-tb-15-1"
+              className="p montserrat-medium color-dark-75 padding-tb-15-3"
               style={{ margin: "0" }}
             >
               <i
@@ -224,7 +224,7 @@ class Content01 extends React.Component {
           </Col>
           <Col
             sm={12}
-            className="col-md-masthead col-md-auto-masthead col-md-2-masthead"
+            className="col-xl-masthead col-xl-auto-masthead col-xl-2-masthead"
             style={{ textAlign: "left" }}
           >
             <p
@@ -247,7 +247,7 @@ class Content01 extends React.Component {
           </Col>
           <Col
             sm={12}
-            className="col-md-masthead col-md-auto-masthead col-md-2-masthead"
+            className="col-xl-masthead col-xl-auto-masthead col-xl-2-masthead"
             style={{
               backgroundColor: "rgba(237, 178, 155, 0.125)"
             }}
@@ -272,7 +272,7 @@ class Content01 extends React.Component {
         >
           <Col
             sm={12}
-            className="col-md-masthead col-md-auto-masthead col-md-2-masthead"
+            className="col-xl-masthead col-xl-auto-masthead col-xl-2-masthead"
             style={{
               backgroundColor: "rgba(237, 178, 155, 0.125)"
             }}
@@ -291,7 +291,7 @@ class Content01 extends React.Component {
           </Col>
           <Col
             sm={12}
-            className="col-md-masthead col-md-auto-masthead col-md-2-masthead"
+            className="col-xl-masthead col-xl-auto-masthead col-xl-2-masthead"
             style={{ textAlign: "left" }}
           >
             <p
@@ -321,11 +321,11 @@ class Content01 extends React.Component {
           </Col>
           <Col
             sm={12}
-            className="col-md-masthead col-md-auto-masthead col-md-2-masthead"
+            className="col-xl-masthead col-xl-auto-masthead col-xl-2-masthead"
             style={{ textAlign: "left" }}
           >
             <p
-              className="p montserrat-medium color-dark-75 padding-tb-15-1"
+              className="p montserrat-medium color-dark-75 padding-tb-15-3"
               style={{ margin: "0" }}
             >
               <i
@@ -351,7 +351,7 @@ class Content01 extends React.Component {
           </Col>
           <Col
             sm={12}
-            className="col-md-masthead col-md-auto-masthead col-md-2-masthead"
+            className="col-xl-masthead col-xl-auto-masthead col-xl-2-masthead"
             style={{ textAlign: "left" }}
           >
             <p
@@ -381,7 +381,7 @@ class Content01 extends React.Component {
           </Col>
           <Col
             sm={12}
-            className="col-md-masthead col-md-auto-masthead col-md-2-masthead"
+            className="col-xl-masthead col-xl-auto-masthead col-xl-2-masthead"
             style={{
               backgroundColor: "rgba(237, 178, 155, 0.125)"
             }}

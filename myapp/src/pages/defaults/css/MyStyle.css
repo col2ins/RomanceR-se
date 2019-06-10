@@ -392,6 +392,13 @@
     }
 }
 
+@media (max-width: 1365px) {
+    .hide-2 {
+        display: none;
+    }
+}
+
+
 @media (min-width: 768px) {
     .icon-size {
         font-size: xx-large;
@@ -578,6 +585,16 @@
 @media (max-width: 767px) {
     .padding-tb-15-2 {
         padding: 0.9375rem 0.9375rem 1.5rem 0.9375rem;
+    }
+}
+
+.padding-tb-15-3 {
+    padding: 0.9375rem;
+}
+
+@media (max-width: 767px) {
+    .padding-tb-15-3 {
+        padding: 0rem 0.9375rem 1.5rem 0.9375rem;
     }
 }
 
