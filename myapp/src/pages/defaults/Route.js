@@ -27,6 +27,7 @@ import HeaderTopContentEngagementParty from './EngagementParty/TopContent';
 import "bootstrap/dist/css/bootstrap.css";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 import "./css/MyStyle.css";
+import "./css/MyLayout.css";
 import "./css/icons/webfont.css";
 import "./css/icons/fontawesome-free-5.8.1-web/css/fontawesome.min.css";
 import "./css/icons/fontawesome-free-5.8.1-web/css/all.min.css";

@@ -13,7 +13,8 @@ class Title01 extends React.Component {
             Báo giá bộ tráp lễ dạm ngõ{" "}
           </h2>
           <p className="h5-masthead montserrat-medium color-dark-75">
-            Để biết thêm thông tin chi tiết, vui lòng liên hệ hotline: <b>1800-6868</b>{" "}
+            Để biết thêm thông tin chi tiết, vui lòng liên hệ hotline:{" "}
+            <b style={{ fontSize: "larger" }}>1800-6868</b>{" "}
           </p>
         </div>
       </Container>
