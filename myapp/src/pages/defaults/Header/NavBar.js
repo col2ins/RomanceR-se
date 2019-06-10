@@ -6,7 +6,7 @@ class NavBar extends React.Component {
   render() {
     return (
       <div className="app-header line-height-2">
-        <Navbar collapseOnSelect expand="lg" variant="dark">
+        <Navbar collapseOnSelect expand="xl" variant="dark">
           <Navbar.Brand href="/">
             <img
               alt=""
