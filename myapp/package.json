@@ -8,6 +8,7 @@
     "react-bootstrap": "^1.0.0-beta.8",
     "react-bootstrap-carousel": "^3.4.1",
     "react-dom": "^16.8.6",
+    "react-multi-carousel": "^1.4.3",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.0"
   },
@@ -31,5 +32,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-alice-carousel": "^1.14.0"
   }
 }

@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-class Content01 extends React.Component {
+class Content02 extends React.Component {
   render() {
     return (
       <Container>
         <Row className="margin-top-secondary">
-          <Col md={3} sm={12}>
+          <Col lg={3} sm={12}>
             <div style={{ background: "#fff", padding: "1.875rem" }}>
               <h4 className="h1-masthead playfairdisplay-bolditalic color-dark-blue">
                 Tráp dạm ngõ truyền thống
@@ -38,7 +38,7 @@ class Content01 extends React.Component {
               </h5>
             </div>
           </Col>
-          <Col md={3} sm={12} className="items-margin-top-20">
+          <Col lg={3} sm={12} className="items-margin-top-20-miai">
             <div style={{ background: "#fff", padding: "1.875rem" }}>
               <h4 className="h1-masthead playfairdisplay-bolditalic color-dark-blue">
                 Tráp dạm ngõ sơn mài VIP1
@@ -70,7 +70,7 @@ class Content01 extends React.Component {
               </h5>
             </div>
           </Col>
-          <Col md={3} sm={12} className="items-margin-top-20">
+          <Col lg={3} sm={12} className="items-margin-top-20-miai">
             <div style={{ background: "#fff", padding: "1.875rem" }}>
               <h4 className="h1-masthead playfairdisplay-bolditalic color-dark-blue">
                 Tráp dạm ngõ sơn mài VIP2{" "}
@@ -102,7 +102,7 @@ class Content01 extends React.Component {
               </h5>
             </div>
           </Col>
-          <Col md={3} sm={12} className="items-margin-top-20">
+          <Col lg={3} sm={12} className="items-margin-top-20-miai">
             <div style={{ background: "#fff", padding: "1.875rem" }}>
               <h4 className="h1-masthead playfairdisplay-bolditalic color-dark-blue">
                 Tráp dạm ngõ sơn mài VIP3{" "}
@@ -140,4 +140,4 @@ class Content01 extends React.Component {
   }
 }
 
-export default Content01;
+export default Content02;

@@ -11,10 +11,6 @@ import HomePage from './HomePage';
 
 import HeaderTopContent from './HomePage/TopContent';
 
-
-import LeCuoi from './LeCuoi';
-import HeaderTopContentLeCuoi from './LeCuoi/TopContent';
-
 import AboutUs from './AboutUs';
 import HeaderTopContentAboutUs from './AboutUs/TopContent';
 
@@ -24,8 +20,12 @@ import HeaderTopContentMiai from './Miai/TopContent';
 import EngagementParty from './EngagementParty';
 import HeaderTopContentEngagementParty from './EngagementParty/TopContent';
 
+import WeddingParty from './WeddingParty';
+import HeaderTopContentWeddingParty from './WeddingParty/TopContent';
+
 import "bootstrap/dist/css/bootstrap.css";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
+import "react-alice-carousel/lib/alice-carousel.css";
 import "./css/MyStyle.css";
 import "./css/MyLayout.css";
 import "./css/icons/webfont.css";
@@ -81,12 +81,12 @@ const RouteList = [
         exact: true
     },
     {
-        path: "/lecuoi",
-        component: LeCuoi,
-        topcontent: <HeaderTopContentLeCuoi />,
+        path: "/WeddingParty",
+        component: WeddingParty,
+        topcontent: <HeaderTopContentWeddingParty />,
         routes: [],
         exact: true
-    }
+    },
 ];
 
 const Router = RouteList.map((route, i) => RenderContent(route));

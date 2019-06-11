@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 
-class Title02 extends React.Component {
+class Title01 extends React.Component {
   render() {
     return (
       <Container>
@@ -10,7 +10,7 @@ class Title02 extends React.Component {
             02
           </h5>
           <h2 className="h2-masthead playfairdisplay-bolditalic color-very-soft-orange">
-            Báo giá bộ tráp lễ dạm ngõ{" "}
+            Báo giá trang trí khách sạn – hội trường cưới trọn gói{" "}
           </h2>
           <p className="h5-masthead montserrat-medium color-dark-75">
             Để biết thêm thông tin chi tiết, vui lòng liên hệ hotline:{" "}
@@ -22,4 +22,4 @@ class Title02 extends React.Component {
   }
 }
 
-export default Title02;
+export default Title01;

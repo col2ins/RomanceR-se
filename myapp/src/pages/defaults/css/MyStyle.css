@@ -512,6 +512,19 @@
     }
 }
 
+@media (max-width: 991px) {
+    .items-margin-top-20-miai {
+        margin-top: 2.5rem;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    .items-margin-top-20-engagement-party {
+        margin-top: 2.5rem;
+    }
+}
+
 .horizontal-align-center {
     margin: 0 auto 0 auto;
 }

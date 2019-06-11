@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 
-class Title01 extends React.Component {
+class Title02 extends React.Component {
   render() {
     return (
       <Container>
@@ -22,4 +22,4 @@ class Title01 extends React.Component {
   }
 }
 
-export default Title01;
+export default Title02;

@@ -36,7 +36,7 @@ class NavBar extends React.Component {
                 <NavDropdown.Item href="/EngagementParty">
                   Lễ ăn hỏi
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/lecuoi">Lễ cưới</NavDropdown.Item>
+                <NavDropdown.Item href="/WeddingParty">Lễ cưới</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown
                 title="Sản phẩm"
