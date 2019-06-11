@@ -25,7 +25,7 @@ import HeaderTopContentWeddingParty from './WeddingParty/TopContent';
 
 import "bootstrap/dist/css/bootstrap.css";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
-import "react-alice-carousel/lib/alice-carousel.css";
+// import "react-alice-carousel/lib/alice-carousel.css";
 import "./css/MyStyle.css";
 import "./css/MyLayout.css";
 import "./css/icons/webfont.css";
