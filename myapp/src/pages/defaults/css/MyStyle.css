@@ -1216,10 +1216,36 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 0%;
+    width: 0;
     text-align: center;
     opacity: 0.5;
-    transition: opacity 0.15s ease;
+    transition: opacity 0.15s ease-in-out;
+}
+
+.leftControl>i,
+.leftControl>span {
+    left: 50%;
+    margin-left: 0.625rem;
+    position: absolute;
+    color: #edb29b;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+    font-size: 25px;
+}
+
+.rightControl>i,
+.rightControl>span {
+    right: 50%;
+    margin-right: 0.625rem;
+    position: absolute;
+    color: #edb29b;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+    font-size: 25px;
 }
 
 .table th,
@@ -1227,4 +1253,40 @@ a:hover {
     padding: 1.875rem;
     vertical-align: top;
     border-top: 1px solid rgba(237, 178, 155, 0.25);
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        transition: opacity 0.15s ease-in-out;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .carousel-item {
+        transition: opacity 0.15s ease-in-out;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .carousel-fade .active.carousel-item-left,
+    .carousel-fade .active.carousel-item-right {
+        transition: opacity 0.15s ease-in-out;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        transition: opacity 0.15s ease-in-out;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .carousel-indicators li {
+        transition: opacity 0.15s ease-in-out;
+    }
 }

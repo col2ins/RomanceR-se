@@ -1,12 +1,32 @@
 import React from "react";
 
-import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Nav, NavDropdown, Dropdown } from "react-bootstrap";
+// import Menu, { SubMenu, Item as MenuItem } from 'rc-menu';
 
+// import 'rc-menu/assets/index.css';
 class NavBar extends React.Component {
+  onMouseOverHandle(event) {
+    console.log( event.target.tagName)
+    if(event.target.tagName == 'A' && !event.target.classList.contains('show') && event.target.classList.contains('dropdown-toggle')) {
+      console.log(event.target)
+      event.target.click();
+      event.preventDefault();
+      console.log(event.target)
+    }
+  }
+  onMouseClickHandle(event) {
+    let _parent = event.target.parentElement;
+    if(_parent.classList.contains('nav-item-dropdown')) {
+      let _href = _parent.getAttribute("href");
+      if(_href) {
+        window.location.href=_href;
+      }
+    }
+  }
   render() {
     return (
       <div className="app-header line-height-2">
-        <Navbar collapseOnSelect expand="xl" variant="dark">
+        <Navbar collapseOnSelect expand="xl" variant="dark" fixed={"top"}>
           <Navbar.Brand href="/">
             <img
               alt=""
@@ -26,11 +46,15 @@ class NavBar extends React.Component {
                 href="/AboutUs"
               >
                 Về chúng tôi
-              </Nav.Link>
+              </Nav.Link> 
               <NavDropdown
                 title="Dịch vụ"
                 id="collasible-nav-dropdown"
-                className="nav-bar-link-masthead montserrat-semibold"
+                href="/Miai"
+                test="aaa"
+                className="nav-item-dropdown nav-bar-link-masthead montserrat-semibold"
+                onMouseOver={this.onMouseOverHandle}
+                onClick={this.onMouseClickHandle}
               >
                 <NavDropdown.Item href="/Miai">Lễ dạm ngõ</NavDropdown.Item>
                 <NavDropdown.Item href="/EngagementParty">
@@ -38,10 +62,12 @@ class NavBar extends React.Component {
                 </NavDropdown.Item>
                 <NavDropdown.Item href="/WeddingParty">Lễ cưới</NavDropdown.Item>
               </NavDropdown>
+
               <NavDropdown
                 title="Sản phẩm"
                 id="collasible-nav-dropdown"
                 className="nav-bar-link-masthead montserrat-semibold"
+                onMouseOver={this.onMouseOverHandle}
               >
                 <NavDropdown.Item href="#action/3.1">Hoa cưới</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">

@@ -26,7 +26,7 @@ class Content extends React.Component {
                     ad litora torquent per conubia nostra, per inceptos
                     himenaeos.
                   </p>
-                  {/* <h4 class="h4-masthead playfairdisplay-italic color-dark margin-top-tertiary">Chúc mừng hạnh
+                  {/* <h4 className="h4-masthead playfairdisplay-italic color-dark margin-top-tertiary">Chúc mừng hạnh
                               phúc!</h4> */}
                 </Col>
               </Container>
@@ -110,7 +110,7 @@ class Content extends React.Component {
                     ad litora torquent per conubia nostra, per inceptos
                     himenaeos.
                   </p>
-                  {/* <h4 class="h4-masthead playfairdisplay-italic color-dark margin-top-tertiary">Chúc mừng hạnh
+                  {/* <h4 className="h4-masthead playfairdisplay-italic color-dark margin-top-tertiary">Chúc mừng hạnh
                                 phúc!</h4> */}
                 </Col>
               </Container>

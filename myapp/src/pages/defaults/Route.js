@@ -36,6 +36,7 @@ import "./css/icons/fontawesome-free-5.8.1-web/css/all.min.css";
 function RenderContent(route) {
     return (
         <Route
+            key={route.path}
             exact
             path={route.path}
             render={props => (

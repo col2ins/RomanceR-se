@@ -8,7 +8,6 @@ const EmbedsPage = () => {
         title="Embeds Page"
         className="embed-responsive-item"
         src="https://www.youtube.com/embed/iBi7KBQaEes"
-        allowFullscreen
       />
     </div>
   );
