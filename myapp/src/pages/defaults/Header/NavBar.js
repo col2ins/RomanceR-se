@@ -6,20 +6,24 @@ import { Navbar, Nav, NavDropdown, Dropdown } from "react-bootstrap";
 // import 'rc-menu/assets/index.css';
 class NavBar extends React.Component {
   onMouseOverHandle(event) {
-    console.log( event.target.tagName)
-    if(event.target.tagName == 'A' && !event.target.classList.contains('show') && event.target.classList.contains('dropdown-toggle')) {
-      console.log(event.target)
+    console.log(event.target.tagName);
+    if (
+      event.target.tagName == "A" &&
+      !event.target.classList.contains("show") &&
+      event.target.classList.contains("dropdown-toggle")
+    ) {
+      console.log(event.target);
       event.target.click();
       event.preventDefault();
-      console.log(event.target)
+      console.log(event.target);
     }
   }
   onMouseClickHandle(event) {
     let _parent = event.target.parentElement;
-    if(_parent.classList.contains('nav-item-dropdown')) {
+    if (_parent.classList.contains("nav-item-dropdown")) {
       let _href = _parent.getAttribute("href");
-      if(_href) {
-        window.location.href=_href;
+      if (_href) {
+        window.location.href = _href;
       }
     }
   }
@@ -46,7 +50,7 @@ class NavBar extends React.Component {
                 href="/AboutUs"
               >
                 Về chúng tôi
-              </Nav.Link> 
+              </Nav.Link>
               <NavDropdown
                 title="Dịch vụ"
                 id="collasible-nav-dropdown"
@@ -60,7 +64,9 @@ class NavBar extends React.Component {
                 <NavDropdown.Item href="/EngagementParty">
                   Lễ ăn hỏi
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/WeddingParty">Lễ cưới</NavDropdown.Item>
+                <NavDropdown.Item href="/WeddingParty">
+                  Lễ cưới
+                </NavDropdown.Item>
               </NavDropdown>
 
               <NavDropdown
@@ -74,7 +80,7 @@ class NavBar extends React.Component {
                   Phụ kiện trang trí
                 </NavDropdown.Item>
               </NavDropdown>
-              <NavDropdown
+              {/* <NavDropdown
                 title="Thư viện ảnh"
                 id="collasible-nav-dropdown"
                 className="nav-bar-link-masthead montserrat-semibold"
@@ -86,14 +92,26 @@ class NavBar extends React.Component {
                   Lễ ăn hỏi
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">Lễ cưới</NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown> */}
+              <Nav.Link
+                className="nav-bar-link-masthead montserrat-semibold"
+                href="/Showcases"
+              >
+                Thư viện ảnh
+              </Nav.Link>
               <Nav.Link
                 className="nav-bar-link-masthead montserrat-semibold"
                 href=""
               >
                 Cẩm nang cưới
               </Nav.Link>
-              <NavDropdown
+              <Nav.Link
+                className="nav-bar-link-masthead montserrat-semibold"
+                href="/Support"
+              >
+                Hỗ trợ khách hàng
+              </Nav.Link>
+              {/* <NavDropdown
                 title="Hỗ trợ khách hàng"
                 id="collasible-nav-dropdown"
                 className="nav-bar-link-masthead montserrat-semibold"
@@ -116,7 +134,7 @@ class NavBar extends React.Component {
                 <NavDropdown.Item href="#action/3.7">
                   Dự toán chi phí lễ cưới hỏi
                 </NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown> */}
               <Nav.Link
                 className="nav-bar-link-masthead montserrat-semibold"
                 href=""

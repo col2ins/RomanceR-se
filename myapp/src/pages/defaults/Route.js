@@ -23,6 +23,12 @@ import HeaderTopContentEngagementParty from './EngagementParty/TopContent';
 import WeddingParty from './WeddingParty';
 import HeaderTopContentWeddingParty from './WeddingParty/TopContent';
 
+import Showcases from './Showcases';
+import HeaderTopContentShowcases from './Showcases/TopContent';
+
+import Support from './Support';
+import HeaderTopContentSupport from './Support/TopContent';
+
 import "bootstrap/dist/css/bootstrap.css";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 // import "react-alice-carousel/lib/alice-carousel.css";
@@ -88,6 +94,21 @@ const RouteList = [
         routes: [],
         exact: true
     },
+    {
+        path: "/Showcases",
+        component: Showcases,
+        topcontent: <HeaderTopContentShowcases />,
+        routes: [],
+        exact: true
+    },
+    {
+        path: "/Support",
+        component: Support,
+        topcontent: <HeaderTopContentSupport />,
+        routes: [],
+        exact: true
+    },
+
 ];
 
 const Router = RouteList.map((route, i) => RenderContent(route));

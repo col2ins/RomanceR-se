@@ -426,6 +426,10 @@
     color: rgba(52, 58, 64, 0.25);
 }
 
+.color-dark-50 {
+    color: rgba(52, 58, 64, 0.50);
+}
+
 .color-dark-75 {
     color: rgba(52, 58, 64, 0.75);
 }
@@ -827,6 +831,14 @@
     color: rgba(52, 58, 64, 0.75);
     background-color: #fff;
     border-bottom: 3px solid #edb29b;
+    border-radius: 0;
+}
+
+.nav-pills .nav-link-masthead.active,
+.nav-pills .show>.nav-link-masthead {
+    color: #edb29b;
+    background-color: rgba(237, 178, 155, 0);
+    border-bottom: none;
     border-radius: 0;
 }
 
