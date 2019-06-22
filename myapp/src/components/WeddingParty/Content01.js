@@ -7,7 +7,8 @@ const EmbedsPage = () => {
       <iframe
         title="Embeds Page"
         className="embed-responsive-item"
-        src="https://www.youtube.com/embed/iBi7KBQaEes"
+        src="https://www.youtube.com/embed/ufphy1qBaKA"
+        allowFullscreen
       />
     </div>
   );
@@ -47,7 +48,7 @@ class Content01 extends React.Component {
           <Col md={6} sm={12}>
             <img
               className="img img-fluid img-services"
-              src="./images/services/miai/miai (1).jpg"
+              src="./images/services/engagement party/engagement party (1).jpg"
               alt=""
             />
           </Col>
@@ -58,7 +59,7 @@ class Content01 extends React.Component {
             className="items-margin-top-20"
           >
             <h5 className="h5-masthead montserrat-extrabold color-dark-blue">
-              Sính lễ
+              Trình tự buổi lễ tại Nhà Gái và Lễ Rước Dâu
             </h5>
             <p className="montserrat-medium color-dark-75">
               Class aptent taciti sociosqu ad litora torquent per conubia
@@ -78,7 +79,7 @@ class Content01 extends React.Component {
             className="items-margin-top-20"
           >
             <h5 className="h5-masthead montserrat-extrabold color-dark-blue">
-              Thành phần tham dự
+              Trình tự buổi lễ tại Nhà Trai và Lễ Gia Tiên
             </h5>
             <p className="montserrat-medium color-dark-75">
               Class aptent taciti sociosqu ad litora torquent per conubia
@@ -92,7 +93,7 @@ class Content01 extends React.Component {
           <Col md={6} sm={12}>
             <img
               className="img img-fluid img-services"
-              src="./images/services/miai/miai (2).jpg"
+              src="./images/services/engagement party/engagement party (2).jpg"
               alt=""
             />
           </Col>
@@ -101,7 +102,7 @@ class Content01 extends React.Component {
           <Col md={6} sm={12}>
             <img
               className="img img-fluid img-services"
-              src="./images/services/miai/miai (3).jpg"
+              src="./images/services/engagement party/engagement party (3).jpg"
               alt=""
             />
           </Col>
@@ -112,7 +113,7 @@ class Content01 extends React.Component {
             className="items-margin-top-20"
           >
             <h5 className="h5-masthead montserrat-extrabold color-dark-blue">
-              Trình tự buổi lễ
+              Trình tự tổ chức Hôn Lễ và Tiệc Cưới
             </h5>
             <p className="montserrat-medium color-dark-75">
               Class aptent taciti sociosqu ad litora torquent per conubia

@@ -66,7 +66,7 @@ class Content extends React.PureComponent {
                 <img
                   style={{ height: "200px" }}
                   src="./images/testimonials/avatar (1).png"
-                  alt="First slide"
+                  alt="Second slide"
                 />
                 <Col md={{ span: 10, offset: 1 }} sm={{ span: 10, offset: 1 }} xs={{ span: 10, offset: 1 }}>
                 <p className="h2-masthed montserrat-medium color-dark-75"  style={{ paddingTop: "1.25rem"}}>
@@ -84,11 +84,11 @@ class Content extends React.PureComponent {
                 </Col>
               </div>
               <div style={{}}>
-                <img
+                {/* <img
                   style={{ height: "200px" }}
                   src="./images/testimonials/avatar (1).png"
-                  alt="First slide"
-                />
+                  alt="Third slide"
+                /> */}
                 <Col md={{ span: 10, offset: 1 }} sm={{ span: 10, offset: 1 }} xs={{ span: 10, offset: 1 }}>
                 <p className="h2-masthed montserrat-medium color-dark-75"  style={{ paddingTop: "1.25rem"}}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

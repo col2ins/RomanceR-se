@@ -6,9 +6,8 @@ class Content extends React.Component {
     return (
       <Tab.Container defaultActiveKey="first">
         <Nav
-          className="align-items-center"
+          className="align-items-center justify-content-center"
           variant="pills"
-          className="justify-content-center"
         >
           <Nav.Item>
             <Nav.Link

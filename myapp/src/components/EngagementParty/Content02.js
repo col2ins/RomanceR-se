@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-class Content01 extends React.Component {
+class Content02 extends React.Component {
   render() {
     return (
       <Container>
         <Row className="margin-top-secondary">
-          <Col md={3} sm={12}>
+          <Col xl={3} sm={12}>
             <div style={{ background: "#fff", padding: "1.875rem" }}>
               <h4 className="h1-masthead playfairdisplay-bolditalic color-dark-blue">
                 Gói Home 1 Hoa lụa{" "}
@@ -39,7 +39,7 @@ class Content01 extends React.Component {
               </h5>
             </div>
           </Col>
-          <Col md={3} sm={12} className="items-margin-top-20">
+          <Col xl={3} sm={12} className="items-margin-top-20-engagement-party">
             <div style={{ background: "#fff", padding: "1.875rem" }}>
               <h4 className="h1-masthead playfairdisplay-bolditalic color-dark-blue">
                 Gói Home 2 Hoa lụa{" "}
@@ -74,7 +74,7 @@ class Content01 extends React.Component {
               </h5>
             </div>
           </Col>
-          <Col md={3} sm={12} className="items-margin-top-20">
+          <Col xl={3} sm={12} className="items-margin-top-20-engagement-party">
             <div style={{ background: "#fff", padding: "1.875rem" }}>
               <h4 className="h1-masthead playfairdisplay-bolditalic color-dark-blue">
                 Gói Home 3 Hoa tươi{" "}
@@ -109,7 +109,7 @@ class Content01 extends React.Component {
               </h5>
             </div>
           </Col>
-          <Col md={3} sm={12} className="items-margin-top-20">
+          <Col xl={3} sm={12} className="items-margin-top-20-engagement-party">
             <div style={{ background: "#fff", padding: "1.875rem" }}>
               <h4 className="h1-masthead playfairdisplay-bolditalic color-dark-blue">
                 Gói Home 4 Hoa tươi{" "}
@@ -150,4 +150,4 @@ class Content01 extends React.Component {
   }
 }
 
-export default Content01;
+export default Content02;

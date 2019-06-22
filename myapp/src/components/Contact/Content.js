@@ -35,7 +35,7 @@ class Content extends React.Component {
                     </div>
                   </Col>
                   <Col sm={8} xs={8}>
-                    <p class="h2-masthead montserrat-medium color-dark-75">
+                    <p className="h2-masthead montserrat-medium color-dark-75">
                       5/12 đường A, khu dân cư An Lộc, Bình An, Q.2, TPHCM.
                     </p>
                   </Col>
@@ -220,8 +220,7 @@ class Content extends React.Component {
                 <input
                   type="text"
                   name="Fullname"
-                  value="Họ tên"
-                  defaultValue=""
+                  defaultValue="Họ tên"
                   className="montserrat-medium color-dark-25"
                 />
               </Col>
@@ -229,7 +228,7 @@ class Content extends React.Component {
                 <input
                   type="email"
                   name="Email"
-                  value="Email"
+                  defaultValue="Email"
                   className="montserrat-medium color-dark-25"
                 />
               </Col>

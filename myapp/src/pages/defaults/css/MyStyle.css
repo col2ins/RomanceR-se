@@ -334,6 +334,19 @@
     font-style: normal;
 }
 
+.montserrat-mediumitalic {
+    font-family: 'Montserrat';
+    src: url('./Montserrat/Montserrat-MediumItalic.woff');
+    /* src: local('Montserrat Medium Italic'), local('Montserrat-MediumItalic'),
+            url('Montserrat-MediumItalic.eot?#iefix') format('embedded-opentype'),
+            url('Montserrat-MediumItalic.woff') format('woff'),
+            url('Montserrat-MediumItalic.ttf') format('truetype'),
+            url('Montserrat-MediumItalic.svg#Montserrat-MediumItalic') format('svg'); */
+    font-weight: 500;
+    font-style: italic;
+}
+
+
 .montserrat-semibold {
     font-family: 'Montserrat';
     src: url('./Montserrat/Montserrat-SemiBold.woff');
@@ -426,6 +439,10 @@
     color: rgba(52, 58, 64, 0.25);
 }
 
+.color-dark-50 {
+    color: rgba(52, 58, 64, 0.50);
+}
+
 .color-dark-75 {
     color: rgba(52, 58, 64, 0.75);
 }
@@ -508,6 +525,19 @@
 
 @media (max-width: 812px) {
     .items-margin-top-20-contact {
+        margin-top: 2.5rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .items-margin-top-20-miai {
+        margin-top: 2.5rem;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    .items-margin-top-20-engagement-party {
         margin-top: 2.5rem;
     }
 }
@@ -814,6 +844,14 @@
     color: rgba(52, 58, 64, 0.75);
     background-color: #fff;
     border-bottom: 3px solid #edb29b;
+    border-radius: 0;
+}
+
+.nav-pills .nav-link-masthead.active,
+.nav-pills .show>.nav-link-masthead {
+    color: #edb29b;
+    background-color: rgba(237, 178, 155, 0);
+    border-bottom: none;
     border-radius: 0;
 }
 
@@ -1203,10 +1241,36 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 0%;
+    width: 0;
     text-align: center;
     opacity: 0.5;
-    transition: opacity 0.15s ease;
+    transition: opacity 0.15s ease-in-out;
+}
+
+.leftControl>i,
+.leftControl>span {
+    left: 50%;
+    margin-left: 0.625rem;
+    position: absolute;
+    color: #edb29b;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+    font-size: 25px;
+}
+
+.rightControl>i,
+.rightControl>span {
+    right: 50%;
+    margin-right: 0.625rem;
+    position: absolute;
+    color: #edb29b;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+    font-size: 25px;
 }
 
 .table th,
@@ -1214,4 +1278,59 @@ a:hover {
     padding: 1.875rem;
     vertical-align: top;
     border-top: 1px solid rgba(237, 178, 155, 0.25);
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        transition: opacity 0.15s ease-in-out;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .carousel-item {
+        transition: opacity 0.15s ease-in-out;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .carousel-fade .active.carousel-item-left,
+    .carousel-fade .active.carousel-item-right {
+        transition: opacity 0.15s ease-in-out;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        transition: opacity 0.15s ease-in-out;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .carousel-indicators li {
+        transition: opacity 0.15s ease-in-out;
+    }
+}
+
+.form-text {
+    display: inline-block;
+    margin: 0rem 1.25rem;
+}
+
+.form-control-file {
+    display: inline-block;
+    width: 100%;
+}
+
+.table thead th {
+    vertical-align: middle;
+    border: 1px solid rgba(237, 178, 155, 0.75);
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid rgba(237, 178, 155, 0.75);
 }
