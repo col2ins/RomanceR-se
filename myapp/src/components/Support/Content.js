@@ -7,9 +7,17 @@ import TitleMuc01 from "./TitleMuc01";
 import Muc02 from "./Muc02";
 import TitleMuc02 from "./TitleMuc02";
 
+import Muc03 from "./Muc03";
+import TitleMuc03 from "./TitleMuc03";
+
+import Muc04 from "./Muc04";
+import TitleMuc04 from "./TitleMuc04";
+
 import Muc05 from "./Muc05";
 import TitleMuc05 from "./TitleMuc05";
 
+import Muc06 from "./Muc06";
+import TitleMuc06 from "./TitleMuc06";
 
 class Content extends React.Component {
   render() {
@@ -102,16 +110,16 @@ class Content extends React.Component {
                   style={{ textAlign: "left" }}
                   className="items-margin-top-20"
                 >
-                  <TitleMuc01 />
-                  <Muc01 />
+                  <TitleMuc03 />
+                  <Muc03 />
                 </Tab.Pane>
                 <Tab.Pane
                   eventKey="4th"
                   style={{ textAlign: "left" }}
                   className="items-margin-top-20"
                 >
-                  <TitleMuc01 />
-                  <Muc01 />
+                  <TitleMuc04 />
+                  <Muc04 />
                 </Tab.Pane>
                 <Tab.Pane
                   eventKey="5th"
@@ -123,11 +131,11 @@ class Content extends React.Component {
                 </Tab.Pane>
                 <Tab.Pane
                   eventKey="6th"
-                  style={{ textAlign: "left" }}
-                  className="items-margin-top-20"
+                  style={{ textAlign: "left", padding: "2.5rem" }}
+                  className="bg-very-soft-orange-12-5 items-margin-top-20"
                 >
-                  <TitleMuc01 />
-                  <Muc01 />
+                  <TitleMuc06 />
+                  <Muc06 />
                 </Tab.Pane>
               </Tab.Content>
             </Col>

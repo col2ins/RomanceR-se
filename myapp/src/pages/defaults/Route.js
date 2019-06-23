@@ -29,6 +29,9 @@ import HeaderTopContentShowcases from './Showcases/TopContent';
 import Support from './Support';
 import HeaderTopContentSupport from './Support/TopContent';
 
+import Map from './Map';
+import HeaderTopContentMap from './Map/TopContent';
+
 import "bootstrap/dist/css/bootstrap.css";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 // import "react-alice-carousel/lib/alice-carousel.css";
@@ -108,7 +111,13 @@ const RouteList = [
         routes: [],
         exact: true
     },
-
+    {
+        path: "/Contact",
+        component: Map,
+        topcontent: <HeaderTopContentMap />,
+        routes: [],
+        exact: true
+    },
 ];
 
 const Router = RouteList.map((route, i) => RenderContent(route));

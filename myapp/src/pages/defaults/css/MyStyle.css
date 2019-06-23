@@ -1329,8 +1329,32 @@ a:hover {
 .table thead th {
     vertical-align: middle;
     border: 1px solid rgba(237, 178, 155, 0.75);
+    background: rgba(237, 178, 155, 0.75);
 }
 
-.table-bordered th, .table-bordered td {
+.table-bordered th,
+.table-bordered td {
     border: 1px solid rgba(237, 178, 155, 0.75);
+}
+
+.table th,
+.table td {
+    padding: 0.9375rem;
+    vertical-align: middle;
+    border: 1px solid rgba(237, 178, 155, 0.75);
+    background: rgba(237, 178, 155, 0.25);
+}
+
+.mapouter {
+    position: relative;
+    text-align: center;
+    height: 50vh;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 50vh;
+    width: 100%;
 }

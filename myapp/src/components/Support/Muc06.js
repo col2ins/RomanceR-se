@@ -42,7 +42,7 @@ class Title extends React.Component {
           </Form.Group>
           <Form.Group controlId="formBasicNormalText">
             <Form.Label className="h5 h5-masthead montserrat-semibold color-dark-blue">
-              Họ và tên{" "}
+              Tên cô dâu & chú rể
             </Form.Label>
             <Form.Control
               type="text"
@@ -55,13 +55,13 @@ class Title extends React.Component {
               }}
             />{" "}
           </Form.Group>
-          <Form.Group controlId="formBasicNormalText">
+          <Form.Group controlId="formBasicNormalDate">
             <Form.Label className="h5 h5-masthead montserrat-semibold color-dark-blue">
-              Tiêu đề
+              Ngày cưới dự định{" "}
             </Form.Label>
             <Form.Control
-              type="text"
-              placeholder="Tiêu đề"
+              type="date"
+              placeholder=""
               className="montserrat-medium color-dark-75"
               style={{
                 background: "#fff",
@@ -70,14 +70,48 @@ class Title extends React.Component {
               }}
             />{" "}
           </Form.Group>
+          <Form.Group controlId="formBasicNormalText">
+            <Form.Label className="h5 h5-masthead montserrat-semibold color-dark-blue">
+              Địa điểm tổ chức dự định{" "}
+            </Form.Label>
+            <Form.Control
+              type="text"
+              placeholder="Địa chỉ"
+              className="montserrat-medium color-dark-75"
+              style={{
+                background: "#fff",
+                marginBottom: "1.875rem",
+                border: "1px solid rgba(237, 178, 155, 0.25)"
+              }}
+            />{" "}
+          </Form.Group>
+          <Form.Group controlId="formBasicNormalText">
+            <Form.Label className="h5 h5-masthead montserrat-semibold color-dark-blue">
+              Dịch vụ yêu cầu{" "}
+            </Form.Label>
+            <Form.Control
+              as="select"
+              className="montserrat-medium color-dark-75"
+              style={{
+                background: "#fff",
+                marginBottom: "1.875rem",
+                border: "1px solid rgba(237, 178, 155, 0.25)"
+              }}
+            >
+              <option>Lễ dạm ngõ</option>
+              <option>Lễ ăn hỏi</option>
+              <option>Lễ cưới</option>
+              <option>Trọn gói ba lễ (dạm ngõ - ăn hỏi - thành hôn)</option>
+            </Form.Control>
+          </Form.Group>
           <Form.Group controlId="exampleForm.ControlTextarea1">
             <Form.Label className="h5 h5-masthead montserrat-semibold color-dark-blue">
-              Nội dung
+              Mô tả phong cách trang trí ưa thích{" "}
             </Form.Label>
             <Form.Control
               as="textarea"
               rows="3"
-              placeholder="Nội dung (tối đa 300 từ)"
+              placeholder="Mô tả (tối đa 300 từ)"
               maxLength="300"
               className="montserrat-medium color-dark-75"
               style={{
@@ -90,11 +124,11 @@ class Title extends React.Component {
           </Form.Group>
           <Form.Group controlId="formBasicNormalText">
             <Form.Label className="h5 h5-masthead montserrat-semibold color-dark-blue">
-              Mã đơn hàng{" "}
+              Đặt lịch hẹn{" "}
             </Form.Label>
             <Form.Control
-              type="text"
-              placeholder="Mã đơn hàng"
+              type="date"
+              placeholder=""
               className="montserrat-medium color-dark-75"
               style={{
                 background: "#fff",
@@ -103,20 +137,23 @@ class Title extends React.Component {
               }}
             />{" "}
           </Form.Group>
-          <Form.Group controlId="formBasicNormalText">
+          <Form.Group controlId="exampleForm.ControlTextarea1">
             <Form.Label className="h5 h5-masthead montserrat-semibold color-dark-blue">
-              Vấn đề cần hỗ trợ{" "}
+              Yêu cầu khác{" "}
             </Form.Label>
             <Form.Control
-              type="text"
-              placeholder="Vấn đề"
+              as="textarea"
+              rows="3"
+              placeholder="Yêu cầu khác (tối đa 300 từ)"
+              maxLength="300"
               className="montserrat-medium color-dark-75"
               style={{
                 background: "#fff",
                 marginBottom: "1.875rem",
+                borderRadius: "0",
                 border: "1px solid rgba(237, 178, 155, 0.25)"
               }}
-            />{" "}
+            />
           </Form.Group>
           <Form.Group controlId="exampleFormControlFile1">
             <Form.Label className="h5 h5-masthead montserrat-semibold color-dark-blue">

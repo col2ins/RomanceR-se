@@ -5,7 +5,7 @@ class Title extends React.Component {
   render() {
     return (
       <Container className="margin-top-secondary">
-        <Table striped bordered hover style={{ textAlign: "center" }}>
+        <Table responsive="lg" style={{ textAlign: "center" }}>
           <thead>
             <tr className="montserrat-semibold color-dark-blue">
               <th />
@@ -26,24 +26,53 @@ class Title extends React.Component {
               <td rowSpan="3" className="montserrat-semibold color-dark-blue">
                 Hoa cưới
               </td>
-              <td>48h đầu tiên</td>
-              <td>
+              <td className="montserrat-medium color-dark-75">48h đầu tiên</td>
+              <td className="montserrat-medium color-dark-75">
                 Đổi mới <br />
                 Trả không thu phí
               </td>
-              <td>Không hỗ trợ đổi/trả</td>
-              <td>Không hỗ trợ đổi/trả</td>
+              <td rowSpan="6" className="montserrat-medium color-dark-75">
+                Không hỗ trợ đổi/trả
+              </td>
+              <td rowSpan="3" className="montserrat-medium color-dark-75">
+                Không hỗ trợ đổi/trả
+              </td>
             </tr>
             <tr>
-              <td>7 ngày tiếp theo</td>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td className="montserrat-medium color-dark-75">
+                7 ngày tiếp theo
+              </td>
+              <td rowSpan="2" className="montserrat-medium color-dark-75">
+                Không hỗ trợ đổi/trả{" "}
+              </td>
             </tr>
             <tr>
-              <td>Sau 7 ngày</td>
-              <td colSpan="2">Larry the Bird</td>
-              <td>@twitter</td>
+              <td className="montserrat-medium color-dark-75">Sau 7 ngày</td>
+            </tr>
+            <tr>
+              <td rowSpan="3" className="montserrat-semibold color-dark-blue">
+                Phụ kiện trang trí
+              </td>
+              <td className="montserrat-medium color-dark-75">48h đầu tiên</td>
+              <td rowSpan="2" className="montserrat-medium color-dark-75">
+                Đổi mới <br />
+                Trả không thu phí
+              </td>
+              <td rowSpan="3" className="montserrat-medium color-dark-75">
+                {" "}
+                Bảo hành hoặc sửa chữa có thu phí{" "}
+              </td>
+            </tr>
+            <tr>
+              <td className="montserrat-medium color-dark-75">
+                7 ngày tiếp theo
+              </td>
+            </tr>
+            <tr>
+              <td className="montserrat-medium color-dark-75">Sau 7 ngày</td>
+              <td className="montserrat-medium color-dark-75">
+                Không hỗ trợ đổi/trả{" "}
+              </td>
             </tr>
           </tbody>
         </Table>

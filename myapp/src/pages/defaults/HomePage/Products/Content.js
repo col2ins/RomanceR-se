@@ -11,7 +11,7 @@ class Content extends React.Component {
         >
           <Nav.Item>
             <Nav.Link
-              className="h5-masthead montserrat-mediumcolor-dark-75"
+              className="h5-masthead montserrat-medium color-dark-75"
               eventKey="first"
             >
               Hoa cưới

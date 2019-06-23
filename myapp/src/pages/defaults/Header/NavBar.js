@@ -137,7 +137,7 @@ class NavBar extends React.Component {
               </NavDropdown> */}
               <Nav.Link
                 className="nav-bar-link-masthead montserrat-semibold"
-                href=""
+                href="/Contact"
               >
                 Liên hệ
               </Nav.Link>

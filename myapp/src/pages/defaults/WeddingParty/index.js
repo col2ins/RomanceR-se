@@ -8,7 +8,7 @@ class MainWeddingParty extends React.Component {
     buildContent() {
         let data = [];
 
-        data.push(<WeddingParty key="12" />)
+        data.push(<WeddingParty key="13" />)
 
         return data;
     }

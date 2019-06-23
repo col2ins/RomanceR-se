@@ -2,13 +2,13 @@ import React from 'react';
 
 import Content from '../../../components/Content';
 
-import Support from '../../../components/Support/Support';
+import Map from '../../../components/Map/Map';
 
-class MainSupport extends React.Component {
+class MainMap extends React.Component {
     buildContent() {
         let data = [];
 
-        data.push(<Support key="11" />)
+        data.push(<Map key="09" />)
 
         return data;
     }
@@ -21,4 +21,4 @@ class MainSupport extends React.Component {
     }
 }
 
-export default MainSupport;
+export default MainMap;
