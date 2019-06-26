@@ -94,20 +94,29 @@ class Content extends React.Component {
           }}
         />
         <p className="montserrat-semibold color-dark-blue">
-          Tag: <a style={{ color: "#191C51" }}>Đám cưới</a>,{" "}
-          <a style={{ color: "#191C51" }}>Kế hoạch</a>
+          Tag:{" "}
+          <a href="/" style={{ color: "#191C51" }}>
+            Đám cưới
+          </a>
+          ,{" "}
+          <a href="/" style={{ color: "#191C51" }}>
+            Kế hoạch
+          </a>
         </p>
         <div
           className="bg-very-soft-orange-12-5"
-          style={{ marginTop: "6.25rem", marginBottom: "6.25rem" }}
+          style={{ marginTop: "6.25rem", padding: "1.25rem" }}
         >
           {" "}
           <div
-            className="fb-comments"
+            class="fb-comments"
             data-href="https://developers.facebook.com/docs/plugins/comments#configurator"
             data-width=""
             data-numposts="5"
-          />
+            data-colorscheme="light"
+            data-mobile="auto-detected"
+            data-order-by="social"
+          />{" "}
         </div>
       </Container>
     );

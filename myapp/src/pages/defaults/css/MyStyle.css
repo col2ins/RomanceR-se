@@ -1381,3 +1381,11 @@ a:not([href]):not([tabindex]) {
     color: #f8f9fa;
     text-decoration: none;
 }
+
+/* #u_0_0 {
+    width: 100vw;
+}
+
+.fb_iframe_widget_fluid_desktop, .fb_iframe_widget_fluid_desktop span, .fb_iframe_widget_fluid_desktop iframe {
+    max-width: 100%;
+} */
