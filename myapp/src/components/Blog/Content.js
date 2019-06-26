@@ -84,7 +84,7 @@ class Content extends React.Component {
         </Row>
         <a
           className="btn btn-masthead btn-bd-primary btn-lg montserrat-semibold color-light margin-top-tertiary"
-          href="Cẩm nang cưới.html"
+          href="/Blog"
           role="button"
         >
           Xem thêm

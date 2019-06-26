@@ -17,9 +17,11 @@ class Content extends React.Component {
               alt=""
             />
             <div className="bg-very-soft-orange-12-5 padding-tb-30-lr-15">
-              <h5 className="playfairdisplay-bolditalic color-dark-blue padding-20-10">
-                Các bước cơ bản lên kế hoạch chuẩn bị cho đám cưới
-              </h5>
+              <a href="/BlogDemo">
+                <h5 className="playfairdisplay-bolditalic color-dark-blue padding-20-10">
+                  Các bước cơ bản lên kế hoạch chuẩn bị cho đám cưới
+                </h5>
+              </a>
               <p className="h2-masthead montserrat-medium color-dark-75 margin-0">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -84,7 +86,7 @@ class Content extends React.Component {
         </Row>
         <a
           className="btn btn-masthead btn-bd-primary btn-lg montserrat-semibold color-light margin-top-tertiary"
-          href="Cẩm nang cưới.html"
+          href="/Blog"
           role="button"
         >
           Xem thêm

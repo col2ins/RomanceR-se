@@ -1123,6 +1123,24 @@
     }
 }
 
+@media (max-width: 992px) {
+    .blogdemo {
+        font-size: medium;
+    }
+}
+
+@media (max-width: 400px) {
+    .blogdemo {
+        font-size: smaller;
+    }
+}
+
+@media (max-width: 320px) {
+    .blogdemo {
+        font-size: x-small;
+    }
+}
+
 #clockdiv {
     display: flex;
     text-align: center;
@@ -1357,4 +1375,9 @@ a:hover {
     background: none !important;
     height: 50vh;
     width: 100%;
+}
+
+a:not([href]):not([tabindex]) {
+    color: #f8f9fa;
+    text-decoration: none;
 }

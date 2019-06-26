@@ -18,7 +18,7 @@ class HeaderContent extends React.Component {
             </p>
             <a
               className="btn btn-masthead btn-bd-secondary btn-lg montserrat-semibold color-light margin-top-4th"
-              href="Liên hệ.html"
+              href="/Contact"
               role="button"
             >
               Liên hệ ngay

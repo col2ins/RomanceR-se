@@ -250,8 +250,7 @@ class Content extends React.Component {
                 <a
                   className="btn btn-masthead btn-bg-secondary btn-lg montserrat-semibold color-light"
                   style={{ width: "100%" }}
-                  href="Liên hệ.html"
-                  role="button"
+                  role="submit"
                 >
                   Liên hệ ngay
                 </a>

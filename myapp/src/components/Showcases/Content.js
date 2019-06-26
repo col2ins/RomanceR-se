@@ -163,7 +163,7 @@ class Content extends React.Component {
         </Tab.Content>
         <a
           className="btn btn-masthead btn-bd-primary btn-lg montserrat-semibold color-light margin-top-tertiary"
-          href="Thư viện ảnh.html"
+          href="/Showcases"
           role="button"
         >
           Xem thêm

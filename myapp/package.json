@@ -9,6 +9,7 @@
     "react-bootstrap": "^1.0.0-beta.8",
     "react-bootstrap-carousel": "^3.4.1",
     "react-dom": "^16.8.6",
+    "react-facebook": "^8.0.4",
     "react-multi-carousel": "^1.4.3",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.0"

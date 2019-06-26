@@ -32,6 +32,9 @@ import HeaderTopContentSupport from './Support/TopContent';
 import Map from './Map';
 import HeaderTopContentMap from './Map/TopContent';
 
+import BlogDemo from './BlogDemo';
+import HeaderTopContentBlogDemo from './BlogDemo/TopContent';
+
 import "bootstrap/dist/css/bootstrap.css";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 // import "react-alice-carousel/lib/alice-carousel.css";
@@ -40,7 +43,6 @@ import "./css/MyLayout.css";
 import "./css/icons/webfont.css";
 import "./css/icons/fontawesome-free-5.8.1-web/css/fontawesome.min.css";
 import "./css/icons/fontawesome-free-5.8.1-web/css/all.min.css";
-
 
 function RenderContent(route) {
     return (
@@ -115,6 +117,13 @@ const RouteList = [
         path: "/Contact",
         component: Map,
         topcontent: <HeaderTopContentMap />,
+        routes: [],
+        exact: true
+    },
+    {
+        path: "/BlogDemo",
+        component: BlogDemo,
+        topcontent: <HeaderTopContentBlogDemo />,
         routes: [],
         exact: true
     },
