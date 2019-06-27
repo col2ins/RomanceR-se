@@ -104,8 +104,26 @@ class Content extends React.Component {
           </a>
         </p>
         <div
+          class="fb-share-button"
+          data-href="https://developers.facebook.com/docs/plugins/"
+          data-layout="button_count"
+          data-size="small"
+        >
+          <div
+            style={{ marginTop: "6.25rem" }}
+            class="fb-like"
+            data-href="https://developers.facebook.com/docs/plugins/"
+            data-width=""
+            data-layout="button_count"
+            data-action="like"
+            data-size="small"
+            data-show-faces="true"
+            data-share="true"
+          />
+        </div>
+        <div
           className="bg-very-soft-orange-12-5"
-          style={{ marginTop: "6.25rem", padding: "1.25rem" }}
+          style={{ marginTop: "1.25rem", padding: "1.25rem" }}
         >
           {" "}
           <div
