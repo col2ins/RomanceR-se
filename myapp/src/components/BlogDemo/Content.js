@@ -104,14 +104,14 @@ class Content extends React.Component {
           </a>
         </p>
         <div
-          class="fb-share-button"
+          className="fb-share-button"
           data-href="https://developers.facebook.com/docs/plugins/"
           data-layout="button_count"
           data-size="small"
         >
           <div
             style={{ marginTop: "6.25rem" }}
-            class="fb-like"
+            className="fb-like"
             data-href="https://developers.facebook.com/docs/plugins/"
             data-width=""
             data-layout="button_count"
@@ -127,7 +127,7 @@ class Content extends React.Component {
         >
           {" "}
           <div
-            class="fb-comments"
+            className="fb-comments"
             data-href="https://developers.facebook.com/docs/plugins/comments#configurator"
             data-width=""
             data-numposts="5"

@@ -737,6 +737,48 @@
     display: table;
 }
 
+.img-bg-services-01 {
+    width: 100%;
+    background:
+        /* top, transparent nudepink, faked with gradient */
+        linear-gradient(rgba(237, 178, 155, 0.25),
+            rgba(237, 178, 155, 0.25)),
+        /* bottom, image */
+        url(./bg-img/services/2.1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: table;
+}
+
+.img-bg-services-02 {
+    width: 100%;
+    background:
+        /* top, transparent nudepink, faked with gradient */
+        linear-gradient(rgba(237, 178, 155, 0.25),
+            rgba(237, 178, 155, 0.25)),
+        /* bottom, image */
+        url(./bg-img/services/2.2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: table;
+}
+
+.img-bg-services-03 {
+    width: 100%;
+    background:
+        /* top, transparent nudepink, faked with gradient */
+        linear-gradient(rgba(237, 178, 155, 0.25),
+            rgba(237, 178, 155, 0.25)),
+        /* bottom, image */
+        url(./bg-img/services/2.3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: table;
+}
+
 .img-bg-testimonials {
     width: 100%;
     background: url(./bg-img/testimonials/1.png);

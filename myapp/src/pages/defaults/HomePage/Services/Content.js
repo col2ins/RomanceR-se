@@ -5,64 +5,45 @@ class Content extends React.Component {
   render() {
     return (
       <Container>
-        <Row className="align-items-center">
-          <Col
-            md={3}
-            sm={12}
-            className="text-align-center margin-top-secondary"
-          >
-            <img src="/images/about us/medal.png" />
-            <h5 className="montserrat-semibold color-dark-blue padding-20-10">
-              Uy tín là vàng
-            </h5>
-            <p className="montserrat-medium color-dark-75 margin-0">
-              Class aptent taciti sociosqu ad litora torquent per conubia
-              nostra, per inceptos himenaeos.
-            </p>
-          </Col>
-          <Col
-            md={3}
-            sm={12}
-            className="text-align-center margin-top-secondary"
-          >
-            <img src="/images/about us/idea.png" />
-            <h5 className="montserrat-semibold color-dark-blue padding-20-10">
-              Thiết kế độc đáo
-            </h5>
-            <p className="montserrat-medium color-dark-75 margin-0">
-              Class aptent taciti sociosqu ad litora torquent per conubia
-              nostra, per inceptos himenaeos.
-            </p>
-          </Col>
-          <Col
-            md={3}
-            sm={12}
-            className="text-align-center margin-top-secondary"
-          >
-            <img src="/images/about us/career.png" />
-            <h5 className="montserrat-semibold color-dark-blue padding-20-10">
-              Làm việc linh hoạt
-            </h5>
-            <p className="montserrat-medium color-dark-75 margin-0">
-              Class aptent taciti sociosqu ad litora torquent per conubia
-              nostra, per inceptos himenaeos.
-            </p>
-          </Col>
-          <Col
-            md={3}
-            sm={12}
-            className="text-align-center margin-top-secondary"
-          >
-            <img src="/images/about us/save-money.png" />
-            <h5 className="montserrat-semibold color-dark-blue padding-20-10">
-              Chi phí hợp lý
-            </h5>
-            <p className="montserrat-medium color-dark-75 margin-0">
-              Class aptent taciti sociosqu ad litora torquent per conubia
-              nostra, per inceptos himenaeos.
-            </p>
-          </Col>
-        </Row>
+            {/* <img
+              // className="img img-fluid"
+              src="./images/services/main/2.1.png"
+              style={{ width: "37.5vw", height: "25vw", float: "right" }}
+              alt=""
+            /> */}
+            <div
+              style={{
+                border: "0.5vw solid #edb29b",
+                padding: "0.625rem",
+                width: "30vw",
+                // height: "20vw"
+              }}
+            >
+              <div
+                style={{
+                  // margin: "0.625rem",
+                  padding: "0.9375rem",
+                  background: "#343a40",
+                  textAlign: "left"
+                  // width: "27.75vw",
+                  // height: "18.5vw"
+                }}
+              >
+                <h5 className="montserrat-semibold color-light">
+                  Dịch vụ cưới hỏi trọn gói
+                </h5>
+                <p
+                  className="montserrat-medium color-light"
+                  style={{ marginBottom: "0" }}
+                >
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos. Class aptent taciti sociosqu
+                  ad litora torquent per conubia nostra, per inceptos himenaeos.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos.{" "}
+                </p>
+              </div>
+            </div>
       </Container>
     );
   }
