@@ -1,0 +1,58 @@
+.app-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    /* background: #1bc2a2; */
+  }
+  
+  .app-navigation ul li {
+    display: block;
+    position: relative;
+    float: left;
+    background: transparent;
+    /* background: #1bc2a2; */
+  }
+  
+  .app-navigation li ul { display: none; }
+  
+  .app-navigation ul li a {
+    text-align: left;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
+  }
+  .app-navigation ul li a:hover { background: #2c3e50; }
+  .app-navigation ul.main-navigation li a:hover { background: #1bc2a2; }
+  .app-navigation li:hover > ul {
+    display: block;
+    position: absolute;
+    /* width: -moz-available; 
+	width: -webkit-fill-available; */
+  }
+  .app-navigation li:hover li { float: none; }
+  
+  .app-navigation li:hover a { background: #1bc2a2; }
+  
+  .app-navigation li:hover li a:hover { background: #2c3e50; }
+  
+  .app-navigation li ul li { border-top: 0; }
+  .app-navigation ul ul ul {
+    left: 100%;
+    top: 0;
+  }
+  .app-navigation .app-menu-icon {
+      padding-right: 5px;
+  }
+  .app-navigation ul:before,
+  .app-navigation ul:after {
+    content: " ";
+    display: table;
+  }
+  .app-navigation ul:after { clear: both; }
+
+  .app-menu-transistion {
+      background-color: #2c3e50;
+  }
