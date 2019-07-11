@@ -177,32 +177,32 @@ class Content extends React.Component {
                   Hỗ trợ khách hàng
                 </h5>
                 <div className="margin-top-4th">
-                  <a href="#demo">
+                  <a href="/Support">
                     <p className="h2-masthead montserrat-medium color-dark-75">
                       Các câu hỏi thường gặp
                     </p>
                   </a>
-                  <a href="#demo">
+                  <a href="/Support">
                     <p className="h2-masthead montserrat-medium color-dark-75">
                       Gửi yêu cầu hỗ trợ
                     </p>
                   </a>
-                  <a href="#demo">
+                  <a href="/Support">
                     <p className="h2-masthead montserrat-medium color-dark-75">
                       Hướng dẫn đặt hàng
                     </p>
                   </a>
-                  <a href="#demo">
+                  <a href="/Support">
                     <p className="h2-masthead montserrat-medium color-dark-75">
                       Phương thức vận chuyển
                     </p>
                   </a>
-                  <a href="#demo">
+                  <a href="/Support">
                     <p className="h2-masthead montserrat-medium color-dark-75">
                       Chính sách đổi trả
                     </p>
                   </a>
-                  <a href="#demo">
+                  <a href="/Support">
                     <p className="h2-masthead montserrat-medium color-dark-75">
                       Dự toán chi phí lễ cưới hỏi
                     </p>

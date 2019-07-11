@@ -1,0 +1,500 @@
+        {/* <Row>
+          <Col md={3} sm={6} xs={6}>
+            <div className="img-showcases-container items-margin-top-20">
+              <img
+                className="img img-showcases img-fluid"
+                alt="Products"
+                src="./images/products/products (1).png"
+              />
+              <a
+                className="text-showcases-2"
+                role="button"
+                href="Hoa cầm tay 01.html"
+              >
+                <p className="montserrat-medium">
+                  <span className="dripicons-basket margin-right-10" />
+                  Mua ngay
+                </p>
+              </a>
+            </div>
+            <div className=" margin-top-4th">
+              <h5 className="h5-masthead montserrat-semibold">
+                <a className="product01" href="Hoa cầm tay 01.html">
+                  Hoa cầm tay 01
+                </a>
+              </h5>
+              <p className="h1-masthead montserrat-medium color-dark-75">
+                350.000 VNĐ
+              </p>
+              <div>
+                {" "}
+                <StarRatingComponent
+                  name="rate1"
+                  renderStarIcon={() => <i className="fas fa-star" />}
+                  starCount={5}
+                  value={rating}
+                  onStarClick={this.onStarClick.bind(this)}
+                  emptyStarColor="#343a4080"
+                  starColor="#F2C94C"
+                />
+              </div>{" "}
+            </div>
+          </Col>
+          <Col md={3} sm={6} xs={6}>
+            <div className="img-showcases-container items-margin-top-20">
+              <img
+                className="img img-showcases img-fluid"
+                alt="Products"
+                src="./images/products/products (2).png"
+              />
+              <a
+                className="text-showcases-2"
+                role="button"
+                href="Hoa cầm tay 01.html"
+              >
+                <p className="montserrat-medium">
+                  <span className="dripicons-basket margin-right-10" />
+                  Mua ngay
+                </p>
+              </a>
+            </div>
+            <div className=" margin-top-4th">
+              <h5 className="h5-masthead montserrat-semibold">
+                <a className="product01" href="Hoa cầm tay 01.html">
+                  Hoa cầm tay 01
+                </a>
+              </h5>
+              <p className="h1-masthead montserrat-medium color-dark-75">
+                350.000 VNĐ
+              </p>
+              <div>
+                {" "}
+                <StarRatingComponent
+                  name="rate1"
+                  renderStarIcon={() => <i className="fas fa-star" />}
+                  starCount={5}
+                  value={rating}
+                  onStarClick={this.onStarClick.bind(this)}
+                  emptyStarColor="#343a4080"
+                  starColor="#F2C94C"
+                />
+              </div>{" "}
+            </div>
+          </Col>
+          <Col md={3} sm={6} xs={6}>
+            <div className="img-showcases-container items-margin-top-20">
+              <img
+                className="img img-showcases img-fluid"
+                alt="Products"
+                src="./images/products/products (3).png"
+              />
+              <a
+                className="text-showcases-2"
+                role="button"
+                href="Hoa cầm tay 01.html"
+              >
+                <p className="montserrat-medium">
+                  <span className="dripicons-basket margin-right-10" />
+                  Mua ngay
+                </p>
+              </a>
+            </div>
+            <div className=" margin-top-4th">
+              <h5 className="h5-masthead montserrat-semibold">
+                <a className="product01" href="Hoa cầm tay 01.html">
+                  Hoa cầm tay 01
+                </a>
+              </h5>
+              <p className="h1-masthead montserrat-medium color-dark-75">
+                350.000 VNĐ
+              </p>
+              <div>
+                {" "}
+                <StarRatingComponent
+                  name="rate1"
+                  renderStarIcon={() => <i className="fas fa-star" />}
+                  starCount={5}
+                  value={rating}
+                  onStarClick={this.onStarClick.bind(this)}
+                  emptyStarColor="#343a4080"
+                  starColor="#F2C94C"
+                />
+              </div>{" "}
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={3} sm={6} xs={6}>
+            <div className="img-showcases-container items-margin-top-20">
+              <img
+                className="img img-showcases img-fluid"
+                alt="Products"
+                src="./images/products/products (4).png"
+              />
+              <a
+                className="text-showcases-2"
+                role="button"
+                href="Hoa cầm tay 01.html"
+              >
+                <p className="montserrat-medium">
+                  <span className="dripicons-basket margin-right-10" />
+                  Mua ngay
+                </p>
+              </a>
+            </div>
+            <div className=" margin-top-4th">
+              <h5 className="h5-masthead montserrat-semibold">
+                <a className="product01" href="Hoa cầm tay 01.html">
+                  Hoa cầm tay 01
+                </a>
+              </h5>
+              <p className="h1-masthead montserrat-medium color-dark-75">
+                350.000 VNĐ
+              </p>
+              <div>
+                {" "}
+                <StarRatingComponent
+                  name="rate1"
+                  renderStarIcon={() => <i className="fas fa-star" />}
+                  starCount={5}
+                  value={rating}
+                  onStarClick={this.onStarClick.bind(this)}
+                  emptyStarColor="#343a4080"
+                  starColor="#F2C94C"
+                />
+              </div>{" "}
+            </div>
+          </Col>
+          <Col md={3} sm={6} xs={6}>
+            <div className="img-showcases-container items-margin-top-20">
+              <img
+                className="img img-showcases img-fluid"
+                alt="Products"
+                src="./images/products/products (5).png"
+              />
+              <a
+                className="text-showcases-2"
+                role="button"
+                href="Hoa cầm tay 01.html"
+              >
+                <p className="montserrat-medium">
+                  <span className="dripicons-basket margin-right-10" />
+                  Mua ngay
+                </p>
+              </a>
+            </div>
+            <div className=" margin-top-4th">
+              <h5 className="h5-masthead montserrat-semibold">
+                <a className="product01" href="Hoa cầm tay 01.html">
+                  Hoa cầm tay 01
+                </a>
+              </h5>
+              <p className="h1-masthead montserrat-medium color-dark-75">
+                350.000 VNĐ
+              </p>
+              <div>
+                {" "}
+                <StarRatingComponent
+                  name="rate1"
+                  renderStarIcon={() => <i className="fas fa-star" />}
+                  starCount={5}
+                  value={rating}
+                  onStarClick={this.onStarClick.bind(this)}
+                  emptyStarColor="#343a4080"
+                  starColor="#F2C94C"
+                />
+              </div>{" "}
+            </div>
+          </Col>
+          <Col md={3} sm={6} xs={6}>
+            <div className="img-showcases-container items-margin-top-20">
+              <img
+                className="img img-showcases img-fluid"
+                alt="Products"
+                src="./images/products/products (6).png"
+              />
+              <a
+                className="text-showcases-2"
+                role="button"
+                href="Hoa cầm tay 01.html"
+              >
+                <p className="montserrat-medium">
+                  <span className="dripicons-basket margin-right-10" />
+                  Mua ngay
+                </p>
+              </a>
+            </div>
+            <div className=" margin-top-4th">
+              <h5 className="h5-masthead montserrat-semibold">
+                <a className="product01" href="Hoa cầm tay 01.html">
+                  Hoa cầm tay 01
+                </a>
+              </h5>
+              <p className="h1-masthead montserrat-medium color-dark-75">
+                350.000 VNĐ
+              </p>
+              <div>
+                {" "}
+                <StarRatingComponent
+                  name="rate1"
+                  renderStarIcon={() => <i className="fas fa-star" />}
+                  starCount={5}
+                  value={rating}
+                  onStarClick={this.onStarClick.bind(this)}
+                  emptyStarColor="#343a4080"
+                  starColor="#F2C94C"
+                />
+              </div>{" "}
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={3} sm={6} xs={6}>
+            <div className="img-showcases-container items-margin-top-20">
+              <img
+                className="img img-showcases img-fluid"
+                alt="Products"
+                src="./images/products/products (7).png"
+              />
+              <a
+                className="text-showcases-2"
+                role="button"
+                href="Hoa cầm tay 01.html"
+              >
+                <p className="montserrat-medium">
+                  <span className="dripicons-basket margin-right-10" />
+                  Mua ngay
+                </p>
+              </a>
+            </div>
+            <div className=" margin-top-4th">
+              <h5 className="h5-masthead montserrat-semibold">
+                <a className="product01" href="Hoa cầm tay 01.html">
+                  Hoa cầm tay 01
+                </a>
+              </h5>
+              <p className="h1-masthead montserrat-medium color-dark-75">
+                350.000 VNĐ
+              </p>
+              <div>
+                {" "}
+                <StarRatingComponent
+                  name="rate1"
+                  renderStarIcon={() => <i className="fas fa-star" />}
+                  starCount={5}
+                  value={rating}
+                  onStarClick={this.onStarClick.bind(this)}
+                  emptyStarColor="#343a4080"
+                  starColor="#F2C94C"
+                />
+              </div>{" "}
+            </div>
+          </Col>
+          <Col md={3} sm={6} xs={6}>
+            <div className="img-showcases-container items-margin-top-20">
+              <img
+                className="img img-showcases img-fluid"
+                alt="Products"
+                src="./images/products/products (8).png"
+              />
+              <a
+                className="text-showcases-2"
+                role="button"
+                href="Hoa cầm tay 01.html"
+              >
+                <p className="montserrat-medium">
+                  <span className="dripicons-basket margin-right-10" />
+                  Mua ngay
+                </p>
+              </a>
+            </div>
+            <div className=" margin-top-4th">
+              <h5 className="h5-masthead montserrat-semibold">
+                <a className="product01" href="Hoa cầm tay 01.html">
+                  Hoa cầm tay 01
+                </a>
+              </h5>
+              <p className="h1-masthead montserrat-medium color-dark-75">
+                350.000 VNĐ
+              </p>
+              <div>
+                {" "}
+                <StarRatingComponent
+                  name="rate1"
+                  renderStarIcon={() => <i className="fas fa-star" />}
+                  starCount={5}
+                  value={rating}
+                  onStarClick={this.onStarClick.bind(this)}
+                  emptyStarColor="#343a4080"
+                  starColor="#F2C94C"
+                />
+              </div>{" "}
+            </div>
+          </Col>
+          <Col md={3} sm={6} xs={6}>
+            <div className="img-showcases-container items-margin-top-20">
+              <img
+                className="img img-showcases img-fluid"
+                alt="Products"
+                src="./images/products/products (9).png"
+              />
+              <a
+                className="text-showcases-2"
+                role="button"
+                href="Hoa cầm tay 01.html"
+              >
+                <p className="montserrat-medium">
+                  <span className="dripicons-basket margin-right-10" />
+                  Mua ngay
+                </p>
+              </a>
+            </div>
+            <div className=" margin-top-4th">
+              <h5 className="h5-masthead montserrat-semibold">
+                <a className="product01" href="Hoa cầm tay 01.html">
+                  Hoa cầm tay 01
+                </a>
+              </h5>
+              <p className="h1-masthead montserrat-medium color-dark-75">
+                350.000 VNĐ
+              </p>
+              <div>
+                {" "}
+                <StarRatingComponent
+                  name="rate1"
+                  renderStarIcon={() => <i className="fas fa-star" />}
+                  starCount={5}
+                  value={rating}
+                  onStarClick={this.onStarClick.bind(this)}
+                  emptyStarColor="#343a4080"
+                  starColor="#F2C94C"
+                />
+              </div>{" "}
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={3} sm={6} xs={6}>
+            <div className="img-showcases-container items-margin-top-20">
+              <img
+                className="img img-showcases img-fluid"
+                alt="Products"
+                src="./images/products/products (10).png"
+              />
+              <a
+                className="text-showcases-2"
+                role="button"
+                href="Hoa cầm tay 01.html"
+              >
+                <p className="montserrat-medium">
+                  <span className="dripicons-basket margin-right-10" />
+                  Mua ngay
+                </p>
+              </a>
+            </div>
+            <div className=" margin-top-4th">
+              <h5 className="h5-masthead montserrat-semibold">
+                <a className="product01" href="Hoa cầm tay 01.html">
+                  Hoa cầm tay 01
+                </a>
+              </h5>
+              <p className="h1-masthead montserrat-medium color-dark-75">
+                350.000 VNĐ
+              </p>
+              <div>
+                {" "}
+                <StarRatingComponent
+                  name="rate1"
+                  renderStarIcon={() => <i className="fas fa-star" />}
+                  starCount={5}
+                  value={rating}
+                  onStarClick={this.onStarClick.bind(this)}
+                  emptyStarColor="#343a4080"
+                  starColor="#F2C94C"
+                />
+              </div>{" "}
+            </div>
+          </Col>
+          <Col md={3} sm={6} xs={6}>
+            <div className="img-showcases-container items-margin-top-20">
+              <img
+                className="img img-showcases img-fluid"
+                alt="Products"
+                src="./images/products/products (11).png"
+              />
+              <a
+                className="text-showcases-2"
+                role="button"
+                href="Hoa cầm tay 01.html"
+              >
+                <p className="montserrat-medium">
+                  <span className="dripicons-basket margin-right-10" />
+                  Mua ngay
+                </p>
+              </a>
+            </div>
+            <div className=" margin-top-4th">
+              <h5 className="h5-masthead montserrat-semibold">
+                <a className="product01" href="Hoa cầm tay 01.html">
+                  Hoa cầm tay 01
+                </a>
+              </h5>
+              <p className="h1-masthead montserrat-medium color-dark-75">
+                350.000 VNĐ
+              </p>
+              <div>
+                {" "}
+                <StarRatingComponent
+                  name="rate1"
+                  renderStarIcon={() => <i className="fas fa-star" />}
+                  starCount={5}
+                  value={rating}
+                  onStarClick={this.onStarClick.bind(this)}
+                  emptyStarColor="#343a4080"
+                  starColor="#F2C94C"
+                />
+              </div>{" "}
+            </div>
+          </Col>
+          <Col md={3} sm={6} xs={6}>
+            <div className="img-showcases-container items-margin-top-20">
+              <img
+                className="img img-showcases img-fluid"
+                alt="Products"
+                src="./images/products/products (12).png"
+              />
+              <a
+                className="text-showcases-2"
+                role="button"
+                href="Hoa cầm tay 01.html"
+              >
+                <p className="montserrat-medium">
+                  <span className="dripicons-basket margin-right-10" />
+                  Mua ngay
+                </p>
+              </a>
+            </div>
+            <div className=" margin-top-4th">
+              <h5 className="h5-masthead montserrat-semibold">
+                <a className="product01" href="Hoa cầm tay 01.html">
+                  Hoa cầm tay 01
+                </a>
+              </h5>
+              <p className="h1-masthead montserrat-medium color-dark-75">
+                350.000 VNĐ
+              </p>
+              <div>
+                {" "}
+                <StarRatingComponent
+                  name="rate1"
+                  renderStarIcon={() => <i className="fas fa-star" />}
+                  starCount={5}
+                  value={rating}
+                  onStarClick={this.onStarClick.bind(this)}
+                  emptyStarColor="#343a4080"
+                  starColor="#F2C94C"
+                />
+              </div>{" "}
+            </div>
+          </Col>
+        </Row> */}

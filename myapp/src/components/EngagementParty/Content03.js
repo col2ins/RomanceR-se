@@ -90,7 +90,7 @@ class Content03 extends React.Component {
           </Col>
           <Col
             sm={12}
-            className="col-xl-masthead col-xl-auto-masthead col-xl-2-masthead hide-2"
+            className="col-xl-masthead col-xl-auto-masthead col-xl-2-masthead"
             style={{ textAlign: "left", opacity: "0" }}
           >
             <p

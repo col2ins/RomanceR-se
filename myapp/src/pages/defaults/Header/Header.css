@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./Montserrat/Montserrat-Medium.woff');
+  /* src: local('Montserrat Medium'), local('Montserrat-Medium'),
+          url('Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+          url('Montserrat-Medium.woff') format('woff'),
+          url('Montserrat-Medium.ttf') format('truetype'),
+          url('Montserrat-Medium.svg#Montserrat-Medium') format('svg'); */
+  font-weight: 500;
+  font-style: normal;
+}
+
+.app-navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  /* background: #1bc2a2; */
+}
+
+.app-navigation ul li {
+  display: block;
+  position: relative;
+  float: left;
+  background: transparent;
+  /* background: #1bc2a2; */
+}
+
+.app-navigation li ul {
+  display: none;
+}
+
+.app-navigation ul li a {
+  font-family: 'Montserrat';
+  src: url('./Montserrat/Montserrat-Medium.woff');
+  /* src: local('Montserrat Medium'), local('Montserrat-Medium'),
+            url('Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+            url('Montserrat-Medium.woff') format('woff'),
+            url('Montserrat-Medium.ttf') format('truetype'),
+            url('Montserrat-Medium.svg#Montserrat-Medium') format('svg'); */
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.app-navigation ul li a:hover {
+  background: #191C51;
+}
+
+.app-navigation ul.main-navigation>li>a:hover {
+  background: transparent;
+}
+
+.app-navigation li:hover>ul {
+  display: block;
+  position: absolute;
+  /* width: -moz-available; 
+	width: -webkit-fill-available; */
+}
+
+.app-navigation li:hover li {
+  float: none;
+}
+
+.app-navigation ul.main-navigation>li:hover>a {
+  background: transparent;
+}
+
+.app-navigation li:hover a {
+  background: #191C51;
+  /* color: #191C51; */
+}
+
+.app-navigation li:hover li a:hover {
+  color: #edb29b;
+}
+
+.app-navigation li ul li {
+  border-top: 0;
+}
+
+.app-navigation ul ul ul {
+  left: 100%;
+  top: 0;
+}
+
+.app-navigation .app-menu-icon {
+  padding-right: 5px;
+}
+
+.app-navigation ul:before,
+.app-navigation ul:after {
+  content: " ";
+  display: table;
+}
+
+.app-navigation ul:after {
+  clear: both;
+}
+
+.app-menu-transistion {
+  background-color: #edb29b;
+}

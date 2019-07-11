@@ -1,17 +1,45 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.min.css";
 
 class Content extends React.Component {
   render() {
     return (
-      <Container>
-            {/* <img
-              // className="img img-fluid"
-              src="./images/services/main/2.1.png"
-              style={{ width: "37.5vw", height: "25vw", float: "right" }}
+      <Container style={{ width: "100%" }}>
+        <ScrollAnimation animateIn="bounceInRight">
+          <div style={{ textAlign: "right" }}>
+            {" "}
+            <img
+              className="img img-fluid margin-top-secondary"
+              src="./images/services/main/services (1).png"
+              style={{ width: "75%" }}
               alt=""
-            /> */}
-            <div
+            />
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="bounceInLeft">
+          <div style={{ textAlign: "left" }}>
+            {" "}
+            <img
+              className="img img-fluid margin-top-secondary"
+              src="./images/services/main/services (2).png"
+              style={{ width: "75%" }}
+              alt=""
+            />
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="bounceInRight">
+          <div style={{ textAlign: "right" }}>
+            <img
+              className="img img-fluid margin-top-secondary"
+              src="./images/services/main/services (3).png"
+              style={{ width: "75%" }}
+              alt=""
+            />
+          </div>
+        </ScrollAnimation>
+        {/* <div
               style={{
                 border: "0.5vw solid #edb29b",
                 padding: "0.625rem",
@@ -43,7 +71,7 @@ class Content extends React.Component {
                   nostra, per inceptos himenaeos.{" "}
                 </p>
               </div>
-            </div>
+            </div> */}
       </Container>
     );
   }

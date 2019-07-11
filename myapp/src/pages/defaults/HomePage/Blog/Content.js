@@ -11,11 +11,14 @@ class Content extends React.Component {
             sm={12}
             className="text-align-center margin-top-secondary"
           >
-            <img
-              className="img img-fluid"
-              src="./images/blog/blog (1).png"
-              alt=""
-            />
+            {" "}
+            <a href="/BlogDemo">
+              <img
+                className="img img-fluid"
+                src="./images/blog/blog (1).png"
+                alt=""
+              />
+            </a>
             <div className="bg-very-soft-orange-12-5 padding-tb-30-lr-15">
               <a href="/BlogDemo">
                 <h5 className="playfairdisplay-bolditalic color-dark-blue padding-20-10">
@@ -38,15 +41,21 @@ class Content extends React.Component {
             sm={12}
             className="text-align-center margin-top-secondary"
           >
-            <img
-              className="img img-fluid"
-              src="./images/blog/blog (2).png"
-              alt=""
-            />
+            {" "}
+            <a href="/BlogDemo">
+              <img
+                className="img img-fluid"
+                src="./images/blog/blog (2).png"
+                alt=""
+              />
+            </a>
             <div className="bg-very-soft-orange-12-5 padding-tb-30-lr-15">
-              <h5 className="playfairdisplay-bolditalic color-dark-blue padding-20-10">
-                Khuyến mại mùa cưới 2019 & bí quyết tổ chức hôn lễ tiết kiệm
-              </h5>
+              {" "}
+              <a href="/BlogDemo">
+                <h5 className="playfairdisplay-bolditalic color-dark-blue padding-20-10">
+                  Khuyến mại mùa cưới 2019 & bí quyết tổ chức hôn lễ tiết kiệm
+                </h5>
+              </a>
               <p className="h2-masthead montserrat-medium color-dark-75 margin-0">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -63,15 +72,21 @@ class Content extends React.Component {
             sm={12}
             className="text-align-center margin-top-secondary"
           >
-            <img
-              className="img img-fluid"
-              src="./images/blog/blog (3).png"
-              alt=""
-            />
+            {" "}
+            <a href="/BlogDemo">
+              <img
+                className="img img-fluid"
+                src="./images/blog/blog (3).png"
+                alt=""
+              />
+            </a>
             <div className="bg-very-soft-orange-12-5 padding-tb-30-lr-15">
-              <h5 className="playfairdisplay-bolditalic color-dark-blue padding-20-10">
-                Những điều cần lưu ý khi thuê Wedding Planner
-              </h5>
+              {" "}
+              <a href="/BlogDemo">
+                <h5 className="playfairdisplay-bolditalic color-dark-blue padding-20-10">
+                  Những điều cần lưu ý khi thuê Wedding Planner
+                </h5>
+              </a>
               <p className="h2-masthead montserrat-medium color-dark-75 margin-0">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

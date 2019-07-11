@@ -23,6 +23,9 @@ import HeaderTopContentEngagementParty from './EngagementParty/TopContent';
 import WeddingParty from './WeddingParty';
 import HeaderTopContentWeddingParty from './WeddingParty/TopContent';
 
+import Products from './Products';
+import HeaderTopContentProducts from './Products/TopContent';
+
 import Showcases from './Showcases';
 import HeaderTopContentShowcases from './Showcases/TopContent';
 
@@ -43,6 +46,7 @@ import "./css/MyLayout.css";
 import "./css/icons/webfont.css";
 import "./css/icons/fontawesome-free-5.8.1-web/css/fontawesome.min.css";
 import "./css/icons/fontawesome-free-5.8.1-web/css/all.min.css";
+// import "animate.css/animate.min.css";
 
 function RenderContent(route) {
     return (
@@ -96,6 +100,13 @@ const RouteList = [
         path: "/WeddingParty",
         component: WeddingParty,
         topcontent: <HeaderTopContentWeddingParty />,
+        routes: [],
+        exact: true
+    },
+    {
+        path: "/Products",
+        component: Products,
+        topcontent: <HeaderTopContentProducts />,
         routes: [],
         exact: true
     },
