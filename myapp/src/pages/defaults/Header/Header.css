@@ -59,6 +59,7 @@
 .app-navigation li:hover>ul {
   display: block;
   position: absolute;
+  width: 12.5rem;
   /* width: -moz-available; 
 	width: -webkit-fill-available; */
 }
@@ -105,4 +106,20 @@
 
 .app-menu-transistion {
   background-color: #edb29b;
+}
+
+@media (max-width: 1024px) {
+  .app-navigation ul {
+      max-width: 12.5rem;
+      float: right;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      /* background: transparent; */
+      background: #edb29b;
+  }
+  .app-navigation li:hover>ul {
+      display: block;
+      position: inherit;
+  }
 }
