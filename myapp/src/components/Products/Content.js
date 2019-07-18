@@ -111,12 +111,12 @@ class Content extends React.Component {
     return (
       <Container>
         <Row>
-          <Col md={3} sm={12} xs={12} style={{fontSize: "smaller"}}>
+          <Col md={4} sm={12} xs={12}>
             {" "}
             <Nav
               defaultActiveKey="/"
               className="flex-column bg-very-soft-orange-12-5"
-              style={{ textAlign: "left", padding: "1.875rem" }}
+              style={{ textAlign: "left", padding: "2.5rem" }}
             >
               <h4 className="h4-masthead montserrat-bold color-dark-blue">
                 SẢN PHẨM
@@ -211,21 +211,20 @@ class Content extends React.Component {
                 }}
               >
                 <Row>
-                  <Col md={12} sm={12} xs={12}>
+                  <Col md={5} sm={12} xs={12}>
                     {" "}
-                    <p><StarRatingComponent
+                    <StarRatingComponent
                       name="rate2"
                       renderStarIcon={() => <i className="fas fa-star" />}
                       starCount={5}
                       value={4}
                       onStarClick={this.onStarClick.bind(this)}
                       emptyStarColor="#343a4080"
-                      starColor="#F2C94C"
-                    />(ít nhất 4 sao)</p>
+                      starColor="#F2C94C" />
                   </Col>
-                  {/* <Col md={6} sm={12} xs={12}>
+                  <Col md={7} sm={12} xs={12}>
                     (ít nhất 4 sao)
-                  </Col> */}
+                  </Col>
                 </Row>
                 <Row>
                   <Col md={5} sm={5} xs={12}>
@@ -325,9 +324,9 @@ class Content extends React.Component {
               </div>
             </Nav>
           </Col>
-          <Col md={9} sm={12} xs={12}>
+          <Col md={8} sm={12} xs={12}>
             {" "}
-            <Row style={{ padding: "0.9375rem" }}>
+            <Row style={{ paddingLeft: "0.9375rem", paddingRight: "0.9375rem", height: "1.875rem" }}>
               <p
                 className="montserrat-semibold color-dark-blue"
                 style={{ paddingLeft: "0rem", paddingRight: "0.312rem", paddingTop: "0.3125rem", paddingBottom: "0.3125rem" }}
@@ -364,19 +363,19 @@ class Content extends React.Component {
               >
                 GIÁ CAO
               </p>
-              <Form inline>
-                <FormControl
-                  type="text"
-                  placeholder="Search"
-                // className=" mr-sm-2"
-                />
-                <Button
-                  // className="btn-search" 
-                  type="submit">
-                  <span className="dripicons-search" />
-                </Button>
-              </Form>
+              <div style={{ lineHeight: "2.125", marginLeft: "5rem" }}>
+                <span style={{ padding: "0.3125rem" }}
+                  className="dripicons-search color-dark-75" />
+              </div>
             </Row>
+            <hr
+              style={{
+                width: "100%",
+                backgroundColor: "rgba(237, 178, 155, 0.5)",
+                marginBottom: "0.9375rem",
+                marginTop: "0.9375rem"
+              }}
+            />
             {this.buildContent()}
           </Col>
         </Row>
